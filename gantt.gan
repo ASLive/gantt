@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-09-02" view-index="0" gantt-divider-location="635" resource-divider-location="300" version="2.8.9" locale="en_US">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Name" width="213" order="0"/>
+        <field id="tpd4" name="Begin date" width="86" order="1"/>
+        <field id="tpd5" name="End date" width="85" order="2"/>
+        <field id="tpd7" name="Completion" width="61" order="3"/>
+        <field id="tpd8" name="Coordinator" width="171" order="4"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelLeft" value="name"/>
+        <option id="taskLabelRight" value="advancement"/>
+        <option id="color.recent"><![CDATA[#000000 #009900 #ff9999 #ffff99]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="201" name="Stakeholder Meetings" color="#000000" meeting="false" start="2018-10-19" duration="22" complete="50" thirdDate="2018-10-19" thirdDate-constraint="0" expand="false">
+            <task id="202" name="Initial meet 'n greet" color="#8cb6ce" meeting="false" start="2018-10-19" duration="1" complete="100" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
+            <task id="203" name="Monthly catchup" meeting="false" start="2018-11-19" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="0" name="Q1 - Planning &amp; Req Eng" color="#8cb6ce" meeting="false" start="2018-09-24" duration="61" complete="30" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+            <task id="133" name="Initial Project Setup" color="#8cb6ce" meeting="false" start="2018-09-24" duration="32" complete="88" thirdDate="2018-09-24" thirdDate-constraint="0" expand="false">
+                <task id="177" name="Form Project Idea" color="#8cb6ce" meeting="false" start="2018-09-24" duration="7" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="134" name="Form Team" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="135" name="Acquire Stakeholder" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="136" name="Acquire Beta Users" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="137" name="Weekly Meeting Schedule" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="138" name="(Lead) Roles and Responsibilities" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="139" name="Tech Stack" color="#8cb6ce" meeting="false" start="2018-10-16" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="140" name="Setup AWS account" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="176" name="Gantt Chart" meeting="false" start="2018-10-09" duration="21" complete="30" expand="true"/>
+            </task>
+            <task id="50" name="Requirements" color="#8cb6ce" meeting="false" start="2018-10-23" duration="40" complete="13" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+                <task id="75" name="Customer Requirements" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="75" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="179" name="Requirements Specification" meeting="false" start="2018-11-20" duration="6" complete="0" expand="true"/>
+                <task id="180" name="Requirements Review Presentation" meeting="false" start="2018-11-20" duration="6" complete="0" expand="true"/>
+                <task id="181" name="Requirements Specifications Baselined" meeting="false" start="2018-11-27" duration="15" complete="0" expand="true"/>
+            </task>
+            <task id="182" name="Prelim Design &amp; Dev" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                <task id="184" name="Prototype" color="#8cb6ce" meeting="false" start="2018-11-06" duration="6" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                    <task id="189" name="webserver" color="#8cb6ce" meeting="false" start="2018-11-06" duration="6" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
+                    <task id="191" name="ios" color="#8cb6ce" meeting="false" start="2018-11-06" duration="6" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
+                    <task id="193" name="android" color="#8cb6ce" meeting="false" start="2018-11-06" duration="6" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="183" name="UML" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                    <task id="185" name="webserver" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
+                    <task id="186" name="ios" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
+                    <task id="187" name="android" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+            <task id="142" name="Research" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="13" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+                <task id="143" name="Kotlin / Swift" meeting="false" start="2018-10-23" duration="6" complete="85" expand="true"/>
+                <task id="147" name="ML" color="#8cb6ce" meeting="false" start="2018-10-23" duration="26" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="false">
+                    <task id="148" name="Acquire Edu Resources" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                    <task id="149" name="Background (General)" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                    <task id="175" name="Tensorflow" meeting="false" start="2018-11-13" duration="6" complete="0" expand="true"/>
+                    <task id="150" name="Component Wise" color="#8cb6ce" meeting="false" start="2018-11-06" duration="16" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                        <task id="151" name="Step 1: Machine Vision with Tensorflow Lite" meeting="false" start="2018-11-06" duration="6" complete="0" expand="true"/>
+                        <task id="152" name="Step 2: ML from hand movements to ASL" meeting="false" start="2018-11-13" duration="6" complete="0" expand="true"/>
+                        <task id="153" name="Step 3: MT from ASL to English" meeting="false" start="2018-11-20" duration="6" complete="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="154" name="Training Data Sources" color="#8cb6ce" meeting="false" start="2018-11-06" duration="30" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="false">
+                    <task id="166" name="Step 1: MV hand/arm/finger detection" meeting="false" start="2018-11-06" duration="6" complete="0" expand="true"/>
+                    <task id="168" name="Step 2: ML hand movements to ASL" meeting="false" start="2018-11-13" duration="6" complete="0" expand="true"/>
+                    <task id="169" name="Step 3: MT from ASL to English" meeting="false" start="2018-11-27" duration="15" complete="0" expand="true"/>
+                </task>
+                <task id="155" name="ASL (familiarity)" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="20" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+                    <task id="156" name="Nate" meeting="false" start="2018-10-16" duration="6" complete="100" expand="true"/>
+                    <task id="157" name="Anvita" meeting="false" start="2018-10-23" duration="6" complete="75" expand="true"/>
+                    <task id="158" name="Louis" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                    <task id="159" name="Ryan" color="#8cb6ce" meeting="false" start="2018-11-06" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                    <task id="160" name="Evan" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                    <task id="161" name="Weichao" meeting="false" start="2018-11-20" duration="6" complete="0" expand="true"/>
+                    <task id="162" name="Investigate Training Data Sources" meeting="false" start="2018-11-27" duration="15" complete="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+        <task id="11" name="Q2 - Development" color="#ff9999" meeting="false" start="2019-01-07" duration="56" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="false">
+            <task id="13" name="tmp_start" color="#8cb6ce" meeting="false" start="2019-01-07" duration="1" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="tmp_end" color="#8cb6ce" meeting="false" start="2019-03-25" duration="1" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="19" name="Q3 - Testing and Docs" color="#009900" meeting="false" start="2019-04-01" duration="56" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="false">
+            <task id="21" name="tmp_start" color="#8cb6ce" meeting="false" start="2019-04-01" duration="1" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="tmp_end" color="#8cb6ce" meeting="false" start="2019-06-17" duration="1" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Nate" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Weichao" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Anvita" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Austin" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Evan" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Louis" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Ryan" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="201" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="189" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="193" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="185" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="186" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="201" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="191" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="186" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="187" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="191" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="193" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="185" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="187" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="189" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
