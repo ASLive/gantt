@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-11-01" view-index="0" gantt-divider-location="933" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-09-01" view-index="0" gantt-divider-location="933" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description/>
-    <view zooming-state="default:0" id="gantt-chart">
+    <view zooming-state="default:10" id="gantt-chart">
         <field id="tpd3" name="Name" width="368" order="0"/>
         <field id="tpd4" name="Begin date" width="131" order="1"/>
         <field id="tpd5" name="End date" width="141" order="2"/>
@@ -40,7 +40,7 @@
             <task id="202" name="Initial meet 'n greet" color="#8cb6ce" meeting="false" start="2018-10-19" duration="1" complete="100" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
             <task id="203" name="Monthly catchup" meeting="false" start="2018-11-19" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="0" name="Q1 - Planning &amp; Req Eng" color="#8cb6ce" meeting="false" start="2018-09-24" duration="61" complete="29" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Q1 - Planning &amp; Req Eng" color="#8cb6ce" meeting="false" start="2018-09-24" duration="61" complete="40" thirdDate="2018-10-25" thirdDate-constraint="0" expand="false">
             <task id="133" name="Initial Project Setup" color="#8cb6ce" meeting="false" start="2018-09-24" duration="32" complete="88" thirdDate="2018-09-24" thirdDate-constraint="0" expand="false">
                 <task id="177" name="Form Project Idea" color="#8cb6ce" meeting="false" start="2018-09-24" duration="7" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                 <task id="134" name="Form Team" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
@@ -52,16 +52,18 @@
                 <task id="140" name="Setup AWS account" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                 <task id="176" name="Gantt Chart" meeting="false" start="2018-10-09" duration="21" complete="30" expand="true"/>
             </task>
-            <task id="50" name="Requirements" color="#8cb6ce" meeting="false" start="2018-10-23" duration="40" complete="13" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
-                <task id="75" name="Customer Requirements" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="75" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+            <task id="50" name="Requirements" color="#8cb6ce" meeting="false" start="2018-09-24" duration="61" complete="46" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+                <task id="260" name="Preliminary Project Plan" meeting="false" start="2018-09-24" duration="17" complete="100" expand="true"/>
+                <task id="75" name="Customer Requirements" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                <task id="262" name="Project Plan Baselined" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="50" thirdDate="2018-10-30" thirdDate-constraint="0" expand="true"/>
                 <task id="179" name="Requirements Specification" meeting="false" start="2018-11-20" duration="6" complete="0" expand="true"/>
                 <task id="180" name="Requirements Review Presentation" meeting="false" start="2018-11-20" duration="6" complete="0" expand="true"/>
                 <task id="181" name="Requirements Specifications Baselined" meeting="false" start="2018-11-27" duration="15" complete="0" expand="true"/>
             </task>
-            <task id="182" name="Prelim Design &amp; Dev" color="#8cb6ce" meeting="false" start="2018-11-06" duration="16" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                <task id="184" name="Prototype" color="#8cb6ce" meeting="false" start="2018-11-06" duration="16" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                    <task id="206" name="Android" color="#000000" meeting="false" start="2018-11-06" duration="16" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                        <task id="207" name="initial repo" color="#8cb6ce" meeting="false" start="2018-11-06" duration="3" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+            <task id="182" name="Prelim Design &amp; Dev" color="#8cb6ce" meeting="false" start="2018-11-06" duration="16" complete="1" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                <task id="184" name="Prototype" color="#8cb6ce" meeting="false" start="2018-11-06" duration="16" complete="3" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                    <task id="206" name="Android" color="#000000" meeting="false" start="2018-11-06" duration="16" complete="10" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                        <task id="207" name="initial repo" color="#8cb6ce" meeting="false" start="2018-11-06" duration="3" complete="80" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
                             <notes><![CDATA[Create a base project and push to github]]></notes>
                         </task>
                         <task id="217" name="minimal ui" color="#8cb6ce" meeting="false" start="2018-11-09" duration="6" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
@@ -70,8 +72,9 @@
                         <task id="233" name="load camera" color="#8cb6ce" meeting="false" start="2018-11-19" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
                             <notes><![CDATA[Use the camera api to take video]]></notes>
                         </task>
+                        <task id="254" name="socket connection to webserver" meeting="false" start="2018-11-16" duration="8" complete="0" expand="true"/>
                     </task>
-                    <task id="204" name="iOS" meeting="false" start="2018-11-06" duration="16" complete="0" expand="true">
+                    <task id="204" name="iOS" color="#000000" meeting="false" start="2018-11-06" duration="16" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
                         <task id="205" name="initial repo" color="#8cb6ce" meeting="false" start="2018-11-06" duration="3" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
                             <notes><![CDATA[Create a base project and push to github]]></notes>
                         </task>
@@ -81,6 +84,7 @@
                         <task id="234" name="load camera" color="#8cb6ce" meeting="false" start="2018-11-19" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
                             <notes><![CDATA[Use the camera api to take video]]></notes>
                         </task>
+                        <task id="256" name="socket connection to webserver" meeting="false" start="2018-11-16" duration="8" complete="0" expand="true"/>
                     </task>
                     <task id="209" name="Webserver" color="#000000" meeting="false" start="2018-11-06" duration="9" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
                         <task id="210" name="intitial repo" color="#8cb6ce" meeting="false" start="2018-11-06" duration="3" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
@@ -89,19 +93,19 @@
                         </task>
                     </task>
                 </task>
-                <task id="183" name="UML" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="false">
+                <task id="183" name="UML" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
                     <task id="185" name="webserver" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
                     <task id="186" name="ios" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
                     <task id="187" name="android" color="#8cb6ce" meeting="false" start="2018-11-06" duration="11" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
                 </task>
             </task>
-            <task id="142" name="Research" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="12" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
+            <task id="142" name="Research" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="13" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
                 <task id="143" name="Kotlin / Swift" color="#8cb6ce" meeting="false" start="2018-10-23" duration="10" complete="50" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
                     <notes><![CDATA[Prepare group tutorial documents
 Gather resources for learning
 Resource list found on our Google Drive]]></notes>
                 </task>
-                <task id="147" name="ML" color="#8cb6ce" meeting="false" start="2018-10-23" duration="26" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="false">
+                <task id="147" name="ML" color="#8cb6ce" meeting="false" start="2018-10-23" duration="26" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
                     <task id="148" name="Acquire Edu Resources" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                     <task id="149" name="Background (General)" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                     <task id="175" name="Tensorflow" meeting="false" start="2018-11-13" duration="6" complete="0" expand="true"/>
@@ -116,14 +120,14 @@ Resource list found on our Google Drive]]></notes>
                     <task id="168" name="Step 2: ML hand movements to ASL" meeting="false" start="2018-11-13" duration="6" complete="0" expand="true"/>
                     <task id="169" name="Step 3: MT from ASL to English" meeting="false" start="2018-11-27" duration="15" complete="0" expand="true"/>
                 </task>
-                <task id="155" name="ASL (familiarity)" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="20" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
-                    <task id="156" name="Nate" meeting="false" start="2018-10-16" duration="6" complete="100" expand="true"/>
-                    <task id="157" name="Anvita" meeting="false" start="2018-10-23" duration="6" complete="75" expand="true"/>
+                <task id="155" name="ASL (familiarity)" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="23" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+                    <task id="156" name="Nate" color="#8cb6ce" meeting="false" start="2018-10-16" duration="6" complete="100" thirdDate="2018-10-16" thirdDate-constraint="0" expand="true"/>
+                    <task id="157" name="Anvita" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="100" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
                     <task id="158" name="Louis" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                     <task id="159" name="Ryan" color="#8cb6ce" meeting="false" start="2018-11-06" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                     <task id="160" name="Evan" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
-                    <task id="161" name="Weichao" meeting="false" start="2018-11-20" duration="6" complete="0" expand="true"/>
-                    <task id="162" name="Investigate Training Data Sources" meeting="false" start="2018-11-27" duration="15" complete="0" expand="true"/>
+                    <task id="161" name="Weichao" color="#8cb6ce" meeting="false" start="2018-11-20" duration="6" complete="0" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
+                    <task id="162" name="Austin" color="#8cb6ce" meeting="false" start="2018-11-27" duration="15" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true"/>
                 </task>
             </task>
         </task>
@@ -149,18 +153,28 @@ Resource list found on our Google Drive]]></notes>
         <allocation task-id="201" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="206" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="209" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="156" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="207" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="185" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="186" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="161" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="201" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="205" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="157" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="204" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="186" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="187" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="75" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="205" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="162" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="262" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="206" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="160" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="204" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="185" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="187" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="158" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="209" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="159" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
