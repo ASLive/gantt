@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-09-01" view-index="0" gantt-divider-location="933" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-11-01" view-index="0" gantt-divider-location="933" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description/>
     <view zooming-state="default:10" id="gantt-chart">
-        <field id="tpd3" name="Name" width="368" order="0"/>
-        <field id="tpd4" name="Begin date" width="131" order="1"/>
-        <field id="tpd5" name="End date" width="141" order="2"/>
-        <field id="tpd7" name="Completion" width="142" order="3"/>
+        <field id="tpd3" name="Name" width="365" order="0"/>
+        <field id="tpd4" name="Begin date" width="132" order="1"/>
+        <field id="tpd5" name="End date" width="142" order="2"/>
+        <field id="tpd7" name="Completion" width="143" order="3"/>
         <field id="tpd8" name="Coordinator" width="147" order="4"/>
         <option id="color.recent"><![CDATA[#000000 #009900 #ff9999 #ffff99]]></option>
     </view>
@@ -131,29 +131,39 @@ Resource list found on our Google Drive]]></notes>
                 </task>
             </task>
         </task>
-        <task id="11" name="Q2 - Development" color="#ff9999" meeting="false" start="2018-09-03" duration="146" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
-            <task id="265" name="Prototype iteration 2: conform to UML" meeting="false" start="2019-01-07" duration="1" complete="0" expand="true">
-                <task id="266" name="android" color="#8cb6ce" meeting="false" start="2019-01-07" duration="1" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
-                <task id="267" name="ios" color="#8cb6ce" meeting="false" start="2019-01-07" duration="1" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
-                <task id="268" name="webserver" color="#8cb6ce" meeting="false" start="2019-01-07" duration="1" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Q2 - Development" color="#ff9999" meeting="false" start="2019-01-07" duration="56" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+            <task id="265" name="Prototype iteration 2: conform to UML" meeting="false" start="2019-01-07" duration="6" complete="0" expand="true">
+                <task id="266" name="android" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+                <task id="267" name="ios" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+                <task id="268" name="webserver" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="275" name="Training Data" color="#000000" meeting="false" start="2018-09-03" duration="1" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
-                <task id="276" name="computer vision" meeting="false" start="2018-09-03" duration="1" complete="0" expand="true"/>
-                <task id="277" name="positional to ASL words" meeting="false" start="2018-09-03" duration="1" complete="0" expand="true"/>
-                <task id="278" name="ASL words to english text" meeting="false" start="2018-09-03" duration="1" complete="0" expand="true"/>
+            <task id="275" name="Training Data" color="#000000" meeting="false" start="2019-01-07" duration="16" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+                <task id="276" name="computer vision" meeting="false" start="2019-01-07" duration="6" complete="0" expand="true"/>
+                <task id="277" name="positional to ASL words" meeting="false" start="2019-01-14" duration="6" complete="0" expand="true"/>
+                <task id="278" name="ASL words to english text" meeting="false" start="2019-01-21" duration="6" complete="0" expand="true"/>
             </task>
-            <task id="26" name="Machine Learning" color="#8cb6ce" meeting="false" start="2018-09-03" duration="1" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
-                <task id="269" name="computer vision" meeting="false" start="2018-09-03" duration="1" complete="0" expand="true">
-                    <task id="271" name="android" meeting="false" start="2018-09-03" duration="1" complete="0" expand="true"/>
-                    <task id="272" name="ios" meeting="false" start="2018-09-03" duration="1" complete="0" expand="true"/>
+            <task id="26" name="Machine Learning" color="#8cb6ce" meeting="false" start="2019-01-14" duration="31" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+                <task id="269" name="computer vision" meeting="false" start="2019-01-14" duration="11" complete="0" expand="true">
+                    <task id="271" name="android" meeting="false" start="2019-01-14" duration="11" complete="0" expand="true"/>
+                    <task id="272" name="ios" meeting="false" start="2019-01-14" duration="11" complete="0" expand="true"/>
                 </task>
-                <task id="273" name="postional to ASL words" meeting="false" start="2018-09-03" duration="1" complete="0" expand="true"/>
-                <task id="274" name="ASL words to english" meeting="false" start="2018-09-03" duration="1" complete="0" expand="true"/>
+                <task id="273" name="postional to ASL words" meeting="false" start="2019-01-28" duration="11" complete="0" expand="true"/>
+                <task id="274" name="ASL words to english" meeting="false" start="2019-02-11" duration="11" complete="0" expand="true"/>
             </task>
             <task id="270" name="Q2 Presentation" meeting="false" start="2019-03-25" duration="1" complete="0" expand="true"/>
         </task>
         <task id="19" name="Q3 - Testing and Docs" color="#009900" meeting="false" start="2019-04-01" duration="56" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
-            <task id="21" name="tmp_start" color="#8cb6ce" meeting="false" start="2019-04-01" duration="1" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="280" name="Testing" meeting="false" start="2019-04-01" duration="16" complete="0" expand="true">
+                <task id="282" name="webserver" meeting="false" start="2019-04-01" duration="6" complete="0" expand="true"/>
+                <task id="283" name="android" meeting="false" start="2019-04-08" duration="6" complete="0" expand="true"/>
+                <task id="284" name="ios" meeting="false" start="2019-04-15" duration="6" complete="0" expand="true"/>
+            </task>
+            <task id="281" name="Documentation" meeting="false" start="2019-04-22" duration="16" complete="0" expand="true">
+                <task id="285" name="webserver" meeting="false" start="2019-04-22" duration="6" complete="0" expand="true"/>
+                <task id="287" name="android" meeting="false" start="2019-04-29" duration="6" complete="0" expand="true"/>
+                <task id="288" name="ios" meeting="false" start="2019-05-06" duration="6" complete="0" expand="true"/>
+            </task>
+            <task id="279" name="Publishing" meeting="false" start="2019-06-17" duration="1" complete="0" expand="true"/>
             <task id="23" name="Final Presentation" color="#8cb6ce" meeting="false" start="2019-06-17" duration="1" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
