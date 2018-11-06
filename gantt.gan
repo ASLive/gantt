@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2019-03-10" view-index="0" gantt-divider-location="914" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-12-23" view-index="0" gantt-divider-location="914" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description/>
-    <view zooming-state="default:7" id="gantt-chart">
+    <view zooming-state="default:4" id="gantt-chart">
         <field id="tpd3" name="Name" width="351" order="0"/>
         <field id="tpd4" name="Begin date" width="131" order="1"/>
         <field id="tpd5" name="End date" width="141" order="2"/>
         <field id="tpd7" name="Completion" width="129" order="3"/>
         <field id="tpd8" name="Coordinator" width="158" order="4"/>
-        <option id="taskLabelUp" value=""/>
-        <option id="taskLabelLeft" value="name"/>
-        <option id="taskLabelRight" value="advancement"/>
         <option id="color.recent"><![CDATA[#000000 #009900 #ff9999 #ffff99]]></option>
     </view>
     <view id="resource-table">
@@ -121,7 +118,7 @@ Resource list found on our Google Drive]]></notes>
 Gather resources for learning
 Resource list found on our Google Drive]]></notes>
                 </task>
-                <task id="147" name="ML" color="#8cb6ce" meeting="false" start="2018-10-23" duration="26" complete="43" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <task id="147" name="ML" color="#8cb6ce" meeting="false" start="2018-10-23" duration="26" complete="43" thirdDate="2018-10-23" thirdDate-constraint="0" expand="false">
                     <task id="148" name="Acquire Edu Resources" color="#8cb6ce" meeting="false" start="2018-10-23" duration="11" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                     <task id="149" name="Background (General)" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                     <task id="175" name="Tensorflow" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="0" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true"/>
@@ -136,7 +133,7 @@ Resource list found on our Google Drive]]></notes>
                     <task id="168" name="ML: hand positions to ASL" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="0" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true"/>
                     <task id="169" name="NMT: ASL to English" color="#8cb6ce" meeting="false" start="2018-11-27" duration="15" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="155" name="ASL (familiarity)" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="35" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+                <task id="155" name="ASL (familiarity)" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="35" thirdDate="2018-09-03" thirdDate-constraint="0" expand="false">
                     <task id="156" name="Nate" color="#8cb6ce" meeting="false" start="2018-10-16" duration="6" complete="100" thirdDate="2018-10-16" thirdDate-constraint="0" expand="true"/>
                     <task id="157" name="Anvita" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="100" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
                     <task id="158" name="Louis" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
@@ -148,17 +145,20 @@ Resource list found on our Google Drive]]></notes>
             </task>
         </task>
         <task id="11" name="Winter - Development" color="#ff9999" meeting="false" start="2019-01-07" duration="56" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="false">
-            <task id="265" name="Prototype iteration 2" meeting="false" start="2019-01-07" duration="6" complete="0" expand="true">
+            <task id="265" name="Prototype iteration 2" meeting="false" start="2019-01-07" duration="56" complete="0" expand="false">
                 <task id="266" name="android" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
                 <task id="267" name="ios" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
                 <task id="268" name="webserver" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
+                <task id="384" name="Regression Testing" color="#8cb6ce" meeting="false" start="2019-01-07" duration="56" complete="0" thirdDate="2018-10-08" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Iteratively test the applications as new features are implemented]]></notes>
+                </task>
             </task>
-            <task id="275" name="Training Data" color="#000000" meeting="false" start="2019-01-07" duration="16" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+            <task id="275" name="Training Data" color="#000000" meeting="false" start="2019-01-07" duration="16" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="false">
                 <task id="276" name="computer vision" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
                 <task id="277" name="positional to ASL words" color="#8cb6ce" meeting="false" start="2019-01-14" duration="6" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
                 <task id="278" name="ASL words to english text" color="#8cb6ce" meeting="false" start="2019-01-21" duration="6" complete="0" thirdDate="2019-01-21" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="26" name="Machine Learning" color="#8cb6ce" meeting="false" start="2019-01-14" duration="31" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+            <task id="26" name="Machine Learning" color="#8cb6ce" meeting="false" start="2019-01-14" duration="31" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="false">
                 <task id="269" name="computer vision" meeting="false" start="2019-01-14" duration="11" complete="0" expand="true">
                     <task id="271" name="android" color="#8cb6ce" meeting="false" start="2019-01-14" duration="11" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
                     <task id="272" name="ios" color="#8cb6ce" meeting="false" start="2019-01-14" duration="11" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
@@ -169,7 +169,7 @@ Resource list found on our Google Drive]]></notes>
             <task id="270" name="Bug Fixes" meeting="false" start="2019-02-25" duration="21" complete="0" expand="true"/>
             <task id="325" name="ML Accuracy Enhancement" meeting="false" start="2019-02-25" duration="21" complete="0" expand="true"/>
         </task>
-        <task id="19" name="Spring - Testing and Docs" color="#009900" meeting="false" start="2019-04-02" duration="55" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+        <task id="19" name="Spring - Testing and Docs" color="#009900" meeting="false" start="2019-04-02" duration="55" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="false">
             <task id="280" name="Testing" meeting="false" start="2019-04-02" duration="55" complete="0" expand="true">
                 <task id="345" name="Unit Testing" meeting="false" start="2019-04-02" duration="40" complete="0" expand="true">
                     <task id="282" name="webserver" color="#8cb6ce" meeting="false" start="2019-04-02" duration="10" complete="0" thirdDate="2019-04-02" thirdDate-constraint="0" expand="true"/>
@@ -219,6 +219,7 @@ Resource list found on our Google Drive]]></notes>
         <allocation task-id="346" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="285" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="358" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="384" resource-id="0" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
         <allocation task-id="185" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="186" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="161" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
@@ -228,6 +229,7 @@ Resource list found on our Google Drive]]></notes>
         <allocation task-id="168" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="273" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="363" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="384" resource-id="1" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
         <allocation task-id="201" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="157" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="204" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
@@ -238,6 +240,7 @@ Resource list found on our Google Drive]]></notes>
         <allocation task-id="284" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="356" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="361" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="384" resource-id="2" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
         <allocation task-id="186" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="187" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="162" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
@@ -257,6 +260,7 @@ Resource list found on our Google Drive]]></notes>
         <allocation task-id="355" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="288" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="359" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="384" resource-id="4" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
         <allocation task-id="185" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="187" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="158" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
