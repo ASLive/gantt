@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-09-01" view-index="0" gantt-divider-location="914" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-11-01" view-index="0" gantt-divider-location="914" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description/>
     <view zooming-state="default:8" id="gantt-chart">
         <field id="tpd3" name="Name" width="345" order="0"/>
