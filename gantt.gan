@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-09-30" view-index="0" gantt-divider-location="914" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-08-01" view-index="0" gantt-divider-location="914" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description/>
-    <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Name" width="348" order="0"/>
-        <field id="tpd4" name="Begin date" width="132" order="1"/>
-        <field id="tpd5" name="End date" width="104" order="2"/>
-        <field id="tpd7" name="Completion" width="127" order="3"/>
-        <field id="tpd8" name="Coordinator" width="199" order="4"/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="339" order="0"/>
+        <field id="tpd4" name="Begin date" width="131" order="1"/>
+        <field id="tpd5" name="End date" width="103" order="2"/>
+        <field id="tpd7" name="Completion" width="126" order="3"/>
+        <field id="tpd8" name="Coordinator" width="196" order="4"/>
         <option id="taskLabelUp" value=""/>
         <option id="taskLabelLeft" value="name"/>
         <option id="taskLabelRight" value="advancement"/>
-        <option id="color.recent"><![CDATA[#000000 #009900 #ff9999 #ffff99]]></option>
+        <option id="color.recent">
+            <![CDATA[#000000 #009900 #ff9999 #ffff99]]>
+        </option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -39,18 +41,19 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="201" name="Stakeholder Meetings" color="#000000" meeting="false" start="2018-10-19" duration="22" complete="50" thirdDate="2018-10-19" thirdDate-constraint="0" expand="false">
+        <task id="201" name="Stakeholder Meetings" color="#000000" meeting="false" start="2018-10-19" duration="59" complete="66" thirdDate="2018-10-19" thirdDate-constraint="0" expand="false">
             <task id="202" name="Initial meet 'n greet" color="#8cb6ce" meeting="false" start="2018-10-19" duration="1" complete="100" thirdDate="2018-10-19" thirdDate-constraint="0" expand="true"/>
-            <task id="203" name="Monthly catchup" meeting="false" start="2018-11-19" duration="1" complete="0" expand="true"/>
+            <task id="203" name="Monthly catchup" meeting="false" start="2018-11-19" duration="1" complete="100" expand="true"/>
+            <task id="394" name="Prototype review" meeting="false" start="2019-01-09" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="307" name="Requirements" color="#8cb6ce" meeting="false" start="2018-09-24" duration="188" complete="45" thirdDate="2018-09-03" thirdDate-constraint="0" expand="false">
-            <task id="330" name="Fall" meeting="false" start="2018-09-24" duration="61" complete="51" expand="false">
-                <task id="331" name="Preliminary Project Plan" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-24" thirdDate-constraint="0" expand="true"/>
+        <task id="307" name="Requirements" color="#8cb6ce" meeting="false" start="2018-09-24" duration="188" complete="58" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+            <task id="330" name="Fall" meeting="false" start="2018-09-24" duration="57" complete="67" expand="false">
+                <task id="331" name="Prelim Project Plan" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-24" thirdDate-constraint="0" expand="true"/>
                 <task id="332" name="Customer Requirements" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                 <task id="333" name="Project Plan Baselined" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="100" thirdDate="2018-10-30" thirdDate-constraint="0" expand="true"/>
-                <task id="334" name="Requirements Specification" color="#8cb6ce" meeting="false" start="2018-11-20" duration="6" complete="0" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
-                <task id="335" name="Requirements Review Presentation" color="#8cb6ce" meeting="false" start="2018-11-20" duration="6" complete="0" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
-                <task id="336" name="Requirements Specifications Baselined" color="#8cb6ce" meeting="false" start="2018-11-27" duration="15" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true"/>
+                <task id="334" name="Requirements Spec (SRS)" color="#8cb6ce" meeting="false" start="2018-11-20" duration="6" complete="100" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
+                <task id="335" name="Requirements Review Presentation" color="#8cb6ce" meeting="false" start="2018-11-20" duration="11" complete="0" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
+                <task id="336" name="Requirements Spec (SRS) Baselined" color="#8cb6ce" meeting="false" start="2018-12-04" duration="6" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="337" name="Winter" meeting="false" start="2019-03-20" duration="4" complete="0" expand="false">
                 <task id="327" name="Development Review Presentation" color="#8cb6ce" meeting="false" start="2019-03-20" duration="4" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true"/>
@@ -59,7 +62,7 @@
                 <task id="329" name="Final Review Presentation" color="#8cb6ce" meeting="false" start="2019-06-07" duration="4" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="0" name="Fall - Planning &amp; Req Eng" color="#8cb6ce" meeting="false" start="2018-09-24" duration="68" complete="53" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Fall - Planning &amp; Req Eng" color="#8cb6ce" meeting="false" start="2018-09-24" duration="60" complete="74" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
             <task id="133" name="Initial Project Setup" color="#8cb6ce" meeting="false" start="2018-09-24" duration="32" complete="100" thirdDate="2018-09-24" thirdDate-constraint="0" expand="false">
                 <task id="177" name="Form Project Idea" color="#8cb6ce" meeting="false" start="2018-09-24" duration="7" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                 <task id="134" name="Form Team" color="#8cb6ce" meeting="false" start="2018-09-24" duration="17" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
@@ -71,87 +74,110 @@
                 <task id="140" name="Setup AWS account" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                 <task id="176" name="Gantt Chart" meeting="false" start="2018-10-09" duration="21" complete="100" expand="true"/>
             </task>
-            <task id="182" name="Prelim Design &amp; Dev" color="#8cb6ce" meeting="false" start="2018-11-06" duration="37" complete="11" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                <task id="184" name="Infrastructure Prototype" color="#8cb6ce" meeting="false" start="2018-11-06" duration="16" complete="28" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                    <task id="206" name="Android" color="#000000" meeting="false" start="2018-11-06" duration="16" complete="17" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+            <task id="182" name="Prelim Design &amp; Dev" color="#8cb6ce" meeting="false" start="2018-11-06" duration="29" complete="30" thirdDate="2018-11-06" thirdDate-constraint="0" expand="false">
+                <task id="184" name="Infrastructure Prototype" color="#8cb6ce" meeting="false" start="2018-11-06" duration="21" complete="58" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                    <task id="206" name="Android" color="#000000" meeting="false" start="2018-11-06" duration="21" complete="53" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
                         <task id="207" name="initial repo" color="#8cb6ce" meeting="false" start="2018-11-06" duration="3" complete="100" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                            <notes><![CDATA[Create a base project and push to github]]></notes>
+                            <notes>
+                                <![CDATA[Create a base project and push to github]]>
+                            </notes>
                         </task>
-                        <task id="217" name="minimal ui" color="#8cb6ce" meeting="false" start="2018-11-09" duration="6" complete="20" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
-                            <notes><![CDATA[Create the minimal ground UI for how we plan the app to look]]></notes>
+                        <task id="217" name="minimal ui" color="#8cb6ce" meeting="false" start="2018-11-09" duration="6" complete="100" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                            <notes>
+                                <![CDATA[Create the minimal ground UI for how we plan the app to look]]>
+                            </notes>
                         </task>
-                        <task id="233" name="load camera" color="#8cb6ce" meeting="false" start="2018-11-19" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
-                            <notes><![CDATA[Use the camera api to take video]]></notes>
+                        <task id="233" name="load camera" color="#8cb6ce" meeting="false" start="2018-11-19" duration="12" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                            <notes>
+                                <![CDATA[Use the camera api to take video]]>
+                            </notes>
                         </task>
-                        <task id="254" name="socket connection to webserver" meeting="false" start="2018-11-16" duration="8" complete="0" expand="true"/>
+                        <task id="254" name="socket connection to webserver" meeting="false" start="2018-11-16" duration="13" complete="70" expand="true"/>
                     </task>
-                    <task id="204" name="iOS" color="#000000" meeting="false" start="2018-11-06" duration="16" complete="17" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                    <task id="204" name="iOS" color="#000000" meeting="false" start="2018-11-06" duration="21" complete="37" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
                         <task id="205" name="initial repo" color="#8cb6ce" meeting="false" start="2018-11-06" duration="3" complete="100" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                            <notes><![CDATA[Create a base project and push to github]]></notes>
+                            <notes>
+                                <![CDATA[Create a base project and push to github]]>
+                            </notes>
                         </task>
-                        <task id="224" name="minimal ui" color="#8cb6ce" meeting="false" start="2018-11-09" duration="6" complete="20" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
-                            <notes><![CDATA[Create the minimal ground UI for how we plan the app to look]]></notes>
+                        <task id="224" name="minimal ui" color="#8cb6ce" meeting="false" start="2018-11-09" duration="6" complete="100" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                            <notes>
+                                <![CDATA[Create the minimal ground UI for how we plan the app to look]]>
+                            </notes>
                         </task>
-                        <task id="234" name="load camera" color="#8cb6ce" meeting="false" start="2018-11-19" duration="7" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
-                            <notes><![CDATA[Use the camera api to take video]]></notes>
+                        <task id="234" name="load camera" color="#8cb6ce" meeting="false" start="2018-11-19" duration="12" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                            <notes>
+                                <![CDATA[Use the camera api to take video]]>
+                            </notes>
                         </task>
-                        <task id="256" name="socket connection to webserver" meeting="false" start="2018-11-16" duration="8" complete="0" expand="true"/>
+                        <task id="256" name="socket connection to webserver" meeting="false" start="2018-11-16" duration="13" complete="30" expand="true"/>
                     </task>
-                    <task id="209" name="Webserver" color="#000000" meeting="false" start="2018-11-06" duration="14" complete="54" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                        <task id="210" name="intitial repo" color="#8cb6ce" meeting="false" start="2018-11-06" duration="9" complete="90" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
-                        <task id="241" name="endpoints" color="#8cb6ce" meeting="false" start="2018-11-16" duration="6" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
-                            <notes><![CDATA[Create a few REST endpoints in order to be called from the mobile apps]]></notes>
+                    <task id="209" name="Webserver" color="#000000" meeting="false" start="2018-11-06" duration="14" complete="100" thirdDate="2018-11-06" thirdDate-constraint="0" expand="false">
+                        <task id="210" name="intitial repo" color="#8cb6ce" meeting="false" start="2018-11-06" duration="9" complete="100" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
+                        <task id="241" name="endpoints" color="#8cb6ce" meeting="false" start="2018-11-16" duration="6" complete="100" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                            <notes>
+                                <![CDATA[Create a few REST endpoints in order to be called from the mobile apps]]>
+                            </notes>
                         </task>
                     </task>
                 </task>
-                <task id="389" name="ML Prototype" color="#000000" meeting="false" start="2018-11-06" duration="37" complete="4" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                    <task id="390" name="CV: video to hand pos" meeting="false" start="2018-11-06" duration="16" complete="10" expand="true"/>
-                    <task id="391" name="ML: hand pos to ASL" meeting="false" start="2018-11-27" duration="22" complete="0" expand="true"/>
+                <task id="389" name="ML Prototype" color="#000000" meeting="false" start="2018-11-06" duration="29" complete="10" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                    <task id="390" name="CV: video to hand pos" meeting="false" start="2018-11-06" duration="29" complete="10" expand="true"/>
                 </task>
             </task>
-            <task id="142" name="Research" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="56" thirdDate="2018-10-01" thirdDate-constraint="0" expand="false">
+            <task id="142" name="Research" color="#8cb6ce" meeting="false" start="2018-10-16" duration="41" complete="85" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true">
                 <task id="143" name="Kotlin" color="#8cb6ce" meeting="false" start="2018-10-23" duration="10" complete="100" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
-                    <notes><![CDATA[Prepare group tutorial documents
+                    <notes>
+                        <![CDATA[Prepare group tutorial documents
 Gather resources for learning
-Resource list found on our Google Drive]]></notes>
+Resource list found on our Google Drive]]>
+                    </notes>
                 </task>
                 <task id="297" name="Swift" color="#8cb6ce" meeting="false" start="2018-10-23" duration="10" complete="100" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
-                    <notes><![CDATA[Prepare group tutorial documents
+                    <notes>
+                        <![CDATA[Prepare group tutorial documents
 Gather resources for learning
-Resource list found on our Google Drive]]></notes>
+Resource list found on our Google Drive]]>
+                    </notes>
                 </task>
-                <task id="147" name="ML" color="#8cb6ce" meeting="false" start="2018-10-23" duration="26" complete="57" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <task id="147" name="ML" color="#8cb6ce" meeting="false" start="2018-10-23" duration="26" complete="100" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
                     <task id="148" name="Acquire Edu Resources" color="#8cb6ce" meeting="false" start="2018-10-23" duration="11" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                     <task id="149" name="Background (General)" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
-                    <task id="175" name="Tensorflow" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="0" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true"/>
-                    <task id="150" name="Component Wise" color="#8cb6ce" meeting="false" start="2018-11-06" duration="16" complete="33" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                    <task id="175" name="Tensorflow" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="100" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="150" name="Component Wise" color="#8cb6ce" meeting="false" start="2018-11-06" duration="16" complete="100" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
                         <task id="151" name="CV: video to hand positions" color="#8cb6ce" meeting="false" start="2018-11-06" duration="6" complete="100" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
-                        <task id="152" name="ML: hand positions to ASL" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="0" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true"/>
-                        <task id="153" name="NMT: ASL to English" color="#8cb6ce" meeting="false" start="2018-11-20" duration="6" complete="0" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
+                        <task id="152" name="ML: hand positions to ASL" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="100" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="153" name="NMT: ASL to English" color="#8cb6ce" meeting="false" start="2018-11-20" duration="6" complete="100" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
-                <task id="154" name="Training Data Sources" color="#8cb6ce" meeting="false" start="2018-11-06" duration="15" complete="25" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                    <task id="166" name="CV: video to hand positions" color="#8cb6ce" meeting="false" start="2018-11-06" duration="15" complete="25" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
-                        <notes><![CDATA[videos of hands (or pretrained model)]]></notes>
+                <task id="154" name="Training Data Sources" color="#8cb6ce" meeting="false" start="2018-11-06" duration="21" complete="75" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                    <task id="166" name="Hand recognition" color="#8cb6ce" meeting="false" start="2018-11-06" duration="21" complete="50" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[videos of hands (or pretrained model)]]>
+                        </notes>
                     </task>
-                    <task id="168" name="ML: hand positions to ASL" color="#8cb6ce" meeting="false" start="2018-11-06" duration="15" complete="25" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true">
-                        <notes><![CDATA[videos of people signing ASL corresponding to ASL words]]></notes>
+                    <task id="168" name="Video to ASL word" color="#8cb6ce" meeting="false" start="2018-11-06" duration="21" complete="100" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[videos of people signing ASL corresponding to ASL words]]>
+                        </notes>
                     </task>
-                    <task id="169" name="NMT: ASL to English" color="#8cb6ce" meeting="false" start="2018-11-06" duration="15" complete="25" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true">
-                        <notes><![CDATA[text of ASL words to text of English
+                    <task id="169" name="Video to English" color="#8cb6ce" meeting="false" start="2018-11-06" duration="21" complete="75" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[text of ASL words to text of English
 (ASL grammar)
 (ASL word translation)
-videos of people signing ASL corresponding to english words]]></notes>
+videos of people signing ASL corresponding to english words]]>
+                        </notes>
                     </task>
                 </task>
-                <task id="155" name="ASL (familiarity)" color="#8cb6ce" meeting="false" start="2018-10-16" duration="45" complete="47" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+                <task id="155" name="ASL (familiarity)" color="#8cb6ce" meeting="false" start="2018-10-16" duration="41" complete="74" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
                     <task id="156" name="Nate" color="#8cb6ce" meeting="false" start="2018-10-16" duration="6" complete="100" thirdDate="2018-10-16" thirdDate-constraint="0" expand="true"/>
                     <task id="157" name="Anvita" color="#8cb6ce" meeting="false" start="2018-10-23" duration="6" complete="100" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
                     <task id="158" name="Louis" color="#8cb6ce" meeting="false" start="2018-10-30" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
                     <task id="159" name="Ryan" color="#8cb6ce" meeting="false" start="2018-11-06" duration="6" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
-                    <task id="160" name="Evan" color="#8cb6ce" meeting="false" start="2018-11-13" duration="6" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
-                    <task id="161" name="Weichao" color="#8cb6ce" meeting="false" start="2018-11-20" duration="6" complete="0" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
-                    <task id="162" name="Austin" color="#8cb6ce" meeting="false" start="2018-11-27" duration="15" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true"/>
+                    <task id="160" name="Evan" color="#8cb6ce" meeting="false" start="2018-11-13" duration="11" complete="100" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true"/>
+                    <task id="161" name="Weichao" color="#8cb6ce" meeting="false" start="2018-11-27" duration="6" complete="0" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
+                    <task id="162" name="Austin" color="#8cb6ce" meeting="false" start="2018-12-04" duration="6" complete="0" thirdDate="2018-11-27" thirdDate-constraint="0" expand="true"/>
                 </task>
             </task>
         </task>
@@ -161,7 +187,9 @@ videos of people signing ASL corresponding to english words]]></notes>
                 <task id="267" name="ios" color="#8cb6ce" meeting="false" start="2019-01-21" duration="24" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
                 <task id="268" name="webserver" color="#8cb6ce" meeting="false" start="2019-01-21" duration="24" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true"/>
                 <task id="384" name="Regression Testing" color="#8cb6ce" meeting="false" start="2019-01-21" duration="29" complete="0" thirdDate="2018-10-08" thirdDate-constraint="0" expand="true">
-                    <notes><![CDATA[Iteratively test the applications as new features are implemented]]></notes>
+                    <notes>
+                        <![CDATA[Iteratively test the applications as new features are implemented]]>
+                    </notes>
                 </task>
             </task>
             <task id="275" name="Scrape Training Data" color="#000000" meeting="false" start="2019-01-07" duration="16" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
