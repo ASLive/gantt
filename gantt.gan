@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-11-01" view-index="0" gantt-divider-location="914" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-12-16" view-index="0" gantt-divider-location="914" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart">
+    <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Name" width="339" order="0"/>
         <field id="tpd4" name="Begin date" width="135" order="1"/>
         <field id="tpd5" name="End date" width="107" order="2"/>
@@ -156,26 +156,26 @@ videos of people signing ASL corresponding to english words]]>
                 </task>
             </task>
         </task>
-        <task id="11" name="Winter - Design &amp; Development" color="#ff9999" meeting="false" start="2019-01-07" duration="62" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
-            <task id="408" name="MVP Development" meeting="false" start="2019-01-07" duration="22" complete="0" expand="true">
-                <task id="26" name="Machine Learning" color="#8cb6ce" meeting="false" start="2019-01-07" duration="22" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
-                    <task id="404" name="training data aquisition" meeting="false" start="2019-01-07" duration="6" complete="0" expand="true"/>
-                    <task id="403" name="static image processing / training" meeting="false" start="2019-01-21" duration="10" complete="0" expand="true"/>
+        <task id="11" name="Winter - Design &amp; Development" color="#ff9999" meeting="false" start="2019-01-07" duration="62" complete="7" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+            <task id="408" name="MVP Development" meeting="false" start="2019-01-07" duration="22" complete="29" expand="true">
+                <task id="26" name="Machine Learning" color="#000000" meeting="false" start="2019-01-07" duration="22" complete="25" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+                    <task id="404" name="training data aquisition" meeting="false" start="2019-01-07" duration="6" complete="100" expand="true"/>
+                    <task id="403" name="static image processing / training" meeting="false" start="2019-01-15" duration="10" complete="0" expand="true"/>
                     <task id="405" name="static letter and number recognition" meeting="false" start="2019-01-25" duration="8" complete="0" expand="true"/>
                 </task>
-                <task id="265" name="Development" meeting="false" start="2019-01-07" duration="14" complete="0" expand="true">
-                    <task id="266" name="android" color="#8cb6ce" meeting="false" start="2019-01-07" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
-                        <task id="409" name="record video" meeting="false" start="2019-01-07" duration="6" complete="0" expand="true"/>
+                <task id="265" name="Development" meeting="false" start="2019-01-07" duration="14" complete="36" expand="true">
+                    <task id="266" name="android" color="#8cb6ce" meeting="false" start="2019-01-07" duration="14" complete="20" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
+                        <task id="409" name="record video" meeting="false" start="2019-01-07" duration="6" complete="50" expand="true"/>
                         <task id="411" name="open websocket" meeting="false" start="2019-01-14" duration="5" complete="0" expand="true"/>
                         <task id="410" name="send prerecorded video" meeting="false" start="2019-01-21" duration="4" complete="0" expand="true"/>
                     </task>
-                    <task id="267" name="ios" color="#8cb6ce" meeting="false" start="2019-01-07" duration="14" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
-                        <task id="413" name="record video" meeting="false" start="2019-01-07" duration="6" complete="0" expand="true"/>
+                    <task id="267" name="ios" color="#8cb6ce" meeting="false" start="2019-01-07" duration="14" complete="30" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
+                        <task id="413" name="record video" meeting="false" start="2019-01-07" duration="6" complete="75" expand="true"/>
                         <task id="415" name="open websocket" meeting="false" start="2019-01-14" duration="5" complete="0" expand="true"/>
                         <task id="417" name="send prerecorded video" meeting="false" start="2019-01-21" duration="4" complete="0" expand="true"/>
                     </task>
-                    <task id="268" name="webserver" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="0" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
-                        <task id="424" name="process video over socket" meeting="false" start="2019-01-07" duration="6" complete="0" expand="true"/>
+                    <task id="268" name="webserver" color="#8cb6ce" meeting="false" start="2019-01-07" duration="6" complete="90" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
+                        <task id="424" name="process video over socket" meeting="false" start="2019-01-07" duration="6" complete="90" expand="true"/>
                     </task>
                 </task>
             </task>
