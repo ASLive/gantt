@@ -171,7 +171,6 @@ videos of people signing ASL corresponding to english words]]>
         <task id="11" name="Winter - Design &amp; Development" color="#ff9999" meeting="false" start="2019-01-07" duration="62" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
             <task id="408" name="MVP Development" meeting="false" start="2019-01-07" duration="22" complete="0" expand="true">
                 <task id="26" name="Machine Learning" color="#8cb6ce" meeting="false" start="2019-01-07" duration="22" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
-                    <task id="269" name="enhance 2d hand recognition" meeting="false" start="2019-01-07" duration="11" complete="0" expand="true"/>
                     <task id="404" name="training data aquisition" meeting="false" start="2019-01-07" duration="6" complete="0" expand="true"/>
                     <task id="403" name="static image processing / training" meeting="false" start="2019-01-21" duration="10" complete="0" expand="true"/>
                     <task id="405" name="static letter and number recognition" meeting="false" start="2019-01-25" duration="8" complete="0" expand="true"/>
@@ -204,6 +203,7 @@ videos of people signing ASL corresponding to english words]]>
                     <task id="431" name="Android" meeting="false" start="2019-02-05" duration="6" complete="0" expand="true"/>
                 </task>
                 <task id="432" name="Live Video ML training" meeting="false" start="2019-02-05" duration="21" complete="0" expand="true"/>
+                <task id="437" name="Hands3D" meeting="false" start="2019-02-05" duration="21" complete="0" expand="true"/>
                 <task id="275" name="Scrape Training Data" color="#000000" meeting="false" start="2019-02-05" duration="17" complete="0" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
                     <task id="277" name="positional to ASL words" color="#8cb6ce" meeting="false" start="2019-02-05" duration="9" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
                     <task id="278" name="ASL words to english text" color="#8cb6ce" meeting="false" start="2019-02-05" duration="9" complete="0" thirdDate="2019-01-21" thirdDate-constraint="0" expand="true"/>
