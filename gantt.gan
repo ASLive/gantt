@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2019-01-20" view-index="0" gantt-divider-location="717" resource-divider-location="300" version="2.8.9" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="ASLive" company="" webLink="http://aslive.tech" view-date="2018-12-16" view-index="0" gantt-divider-location="717" resource-divider-location="300" version="2.8.9" locale="en_US">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="Name" width="291" order="0"/>
@@ -134,33 +134,36 @@ videos of people signing ASL corresponding to english words]]></notes>
                 </task>
             </task>
         </task>
-        <task id="11" name="Winter - Design &amp; Development" color="#ff9999" meeting="false" start="2019-01-07" duration="62" complete="59" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
-            <task id="408" name="MVP Development" meeting="false" start="2019-01-07" duration="47" complete="68" expand="true">
-                <task id="26" name="Machine Learning" color="#000000" meeting="false" start="2019-01-07" duration="47" complete="71" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+        <task id="11" name="Winter - Design &amp; Development" color="#ff9999" meeting="false" start="2019-01-07" duration="58" complete="81" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+            <task id="408" name="MVP Development" meeting="false" start="2019-01-07" duration="58" complete="75" expand="true">
+                <task id="26" name="Machine Learning" color="#000000" meeting="false" start="2019-01-07" duration="58" complete="61" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
                     <task id="404" name="training data aquisition" meeting="false" start="2019-01-07" duration="6" complete="100" expand="true"/>
                     <task id="403" name="static image processing / training" meeting="false" start="2019-01-15" duration="10" complete="100" expand="true"/>
                     <task id="405" name="static letter recognition" meeting="false" start="2019-01-25" duration="8" complete="100" expand="true"/>
                     <task id="453" name="fix image displaying" color="#8cb6ce" meeting="false" start="2019-02-05" duration="5" complete="100" thirdDate="2019-02-05" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
                     <task id="444" name="increase accuracy to 30%" color="#8cb6ce" meeting="false" start="2019-02-05" duration="7" complete="100" thirdDate="2019-02-05" thirdDate-constraint="0" expand="true"/>
                     <task id="475" name="Hands3D" color="#8cb6ce" meeting="false" start="2019-02-11" duration="12" complete="100" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true"/>
-                    <task id="461" name="increase accuracy to 70%" color="#8cb6ce" meeting="false" start="2019-02-11" duration="12" complete="20" thirdDate="2019-02-05" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
-                    <task id="474" name="Live Video ML training" color="#8cb6ce" meeting="false" start="2019-02-26" duration="11" complete="5" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="461" name="increase accuracy to 70%" color="#8cb6ce" meeting="false" start="2019-02-11" duration="12" complete="100" thirdDate="2019-02-05" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                    <task id="474" name="Live Video ML training" color="#8cb6ce" meeting="false" start="2019-02-26" duration="11" complete="50" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="492" name="Increase hand3d speed" color="#8cb6ce" meeting="false" start="2019-03-05" duration="12" complete="0" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="433" name="10 ASL Phrases with motion" color="#8cb6ce" meeting="false" start="2019-03-12" duration="12" complete="0" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true"/>
+                    <task id="439" name="ASL number recognition" color="#8cb6ce" meeting="false" start="2019-03-12" duration="12" complete="0" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="265" name="Development" meeting="false" start="2019-01-07" duration="47" complete="65" expand="true">
-                    <task id="266" name="mobile client" color="#8cb6ce" meeting="false" start="2019-01-07" duration="47" complete="44" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
+                <task id="265" name="Development" meeting="false" start="2019-01-07" duration="47" complete="93" expand="true">
+                    <task id="266" name="mobile client" color="#8cb6ce" meeting="false" start="2019-01-07" duration="47" complete="88" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
                         <task id="409" name="record video" meeting="false" start="2019-01-07" duration="6" complete="100" expand="true"/>
                         <task id="411" name="open websocket" meeting="false" start="2019-01-14" duration="5" complete="100" expand="true"/>
                         <task id="410" name="send prerecorded video" meeting="false" start="2019-01-21" duration="12" complete="100" expand="true"/>
-                        <task id="473" name="Stream Live Video" color="#8cb6ce" meeting="false" start="2019-02-12" duration="21" complete="30" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true"/>
-                        <task id="478" name="Display Translated Text" color="#8cb6ce" meeting="false" start="2019-02-19" duration="11" complete="0" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
-                        <task id="480" name="Format UI" color="#8cb6ce" meeting="false" start="2019-02-19" duration="11" complete="0" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                        <task id="473" name="Stream Live Video" color="#8cb6ce" meeting="false" start="2019-02-12" duration="21" complete="75" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true"/>
+                        <task id="478" name="Display Translated Text" color="#8cb6ce" meeting="false" start="2019-02-19" duration="11" complete="100" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                        <task id="480" name="Format UI" color="#8cb6ce" meeting="false" start="2019-02-19" duration="14" complete="80" thirdDate="2019-02-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
                     </task>
-                    <task id="268" name="webserver" color="#8cb6ce" meeting="false" start="2019-01-07" duration="40" complete="90" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
+                    <task id="268" name="webserver" color="#8cb6ce" meeting="false" start="2019-01-07" duration="40" complete="100" thirdDate="2019-01-07" thirdDate-constraint="0" expand="true">
                         <task id="424" name="process video over socket" meeting="false" start="2019-01-07" duration="6" complete="100" expand="true"/>
                         <task id="446" name="save and display video" meeting="false" start="2019-01-28" duration="7" complete="100" expand="true"/>
                         <task id="441" name="parse video frames" color="#8cb6ce" meeting="false" start="2019-02-05" duration="5" complete="100" thirdDate="2019-02-05" thirdDate-constraint="0" expand="true"/>
                         <task id="469" name="Integrate ML" color="#8cb6ce" meeting="false" start="2019-02-11" duration="7" complete="100" thirdDate="2018-12-03" thirdDate-constraint="0" expand="true"/>
-                        <task id="481" name="Fix crash after predict bug" color="#8cb6ce" meeting="false" start="2019-02-19" duration="9" complete="50" thirdDate="2019-02-19" thirdDate-constraint="0" expand="true"/>
+                        <task id="481" name="Fix crash after predict bug" color="#8cb6ce" meeting="false" start="2019-02-19" duration="9" complete="100" thirdDate="2019-02-19" thirdDate-constraint="0" expand="true"/>
                         <task id="484" name="Process multiple frames" color="#8cb6ce" meeting="false" start="2019-02-19" duration="6" complete="100" thirdDate="2019-02-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
                         <task id="490" name="AWS S3 model storage" color="#8cb6ce" meeting="false" start="2019-02-19" duration="6" complete="100" thirdDate="2019-02-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
                     </task>
@@ -171,14 +174,10 @@ videos of people signing ASL corresponding to english words]]></notes>
                 <task id="387" name="mobile client" color="#8cb6ce" meeting="false" start="2019-01-21" duration="12" complete="100" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true"/>
                 <task id="402" name="Software Design Document" color="#8cb6ce" meeting="false" start="2019-01-30" duration="10" complete="100" thirdDate="2019-01-30" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="426" name="Next Steps" meeting="false" start="2019-03-05" duration="21" complete="0" expand="true">
-                <task id="439" name="ASL number recognition" meeting="false" start="2019-03-05" duration="8" complete="0" expand="true"/>
-                <task id="433" name="10 ASL Phrases with motion" meeting="false" start="2019-03-05" duration="21" complete="0" expand="true"/>
-            </task>
-            <task id="275" name="Scrape Training Data" color="#000000" meeting="false" start="2019-02-12" duration="19" complete="67" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
-                <task id="277" name="ASL phrases" color="#8cb6ce" meeting="false" start="2019-02-12" duration="14" complete="90" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="275" name="Scrape Training Data" color="#000000" meeting="false" start="2019-02-12" duration="19" complete="85" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+                <task id="277" name="ASL phrases" color="#8cb6ce" meeting="false" start="2019-02-12" duration="14" complete="100" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
                 <task id="278" name="ASL music videos" color="#8cb6ce" meeting="false" start="2019-02-12" duration="9" complete="100" thirdDate="2019-01-21" thirdDate-constraint="0" expand="true"/>
-                <task id="406" name="preprocessing" color="#8cb6ce" meeting="false" start="2019-02-26" duration="9" complete="0" thirdDate="2019-02-26" thirdDate-constraint="0" expand="true"/>
+                <task id="406" name="preprocessing" color="#8cb6ce" meeting="false" start="2019-02-26" duration="9" complete="50" thirdDate="2019-02-26" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
         <task id="19" name="Spring - Testing &amp; Docs" color="#009900" meeting="false" start="2019-04-02" duration="55" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
@@ -240,6 +239,8 @@ videos of people signing ASL corresponding to english words]]></notes>
         <allocation task-id="475" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="481" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="484" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="492" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="433" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="161" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="148" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="152" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
@@ -249,6 +250,7 @@ videos of people signing ASL corresponding to english words]]></notes>
         <allocation task-id="402" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="277" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="406" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="492" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="157" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="204" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="297" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
@@ -263,6 +265,7 @@ videos of people signing ASL corresponding to english words]]></notes>
         <allocation task-id="473" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="478" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="480" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="439" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="162" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="287" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="357" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
@@ -270,6 +273,7 @@ videos of people signing ASL corresponding to english words]]></notes>
         <allocation task-id="402" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="277" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="406" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="433" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="206" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="160" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="204" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
@@ -307,6 +311,7 @@ videos of people signing ASL corresponding to english words]]></notes>
         <allocation task-id="461" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="474" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="490" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="439" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
