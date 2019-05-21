@@ -180,25 +180,25 @@ videos of people signing ASL corresponding to english words]]></notes>
                 <task id="406" name="preprocessing" color="#8cb6ce" meeting="false" start="2019-02-26" duration="9" complete="50" thirdDate="2019-02-26" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="19" name="Spring - Testing &amp; Docs" color="#009900" meeting="false" start="2019-04-02" duration="55" complete="54" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
-            <task id="435" name="Development" meeting="false" start="2019-04-02" duration="36" complete="79" expand="true">
+        <task id="19" name="Spring - Testing &amp; Docs" color="#009900" meeting="false" start="2019-04-02" duration="55" complete="67" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+            <task id="435" name="Development" meeting="false" start="2019-04-02" duration="36" complete="96" expand="true">
                 <task id="497" name="Increase hand3d speed" color="#8cb6ce" meeting="false" start="2019-04-02" duration="17" complete="100" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
-                <task id="499" name="ASL Phrases with motion" color="#8cb6ce" meeting="false" start="2019-04-23" duration="21" complete="50" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
-                <task id="501" name="ASL number recognition" color="#8cb6ce" meeting="false" start="2019-04-09" duration="31" complete="80" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
-                <task id="508" name="finish ASL letter recognition" color="#8cb6ce" meeting="false" start="2019-04-09" duration="31" complete="80" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="499" name="ASL Phrases with motion" color="#8cb6ce" meeting="false" start="2019-04-23" duration="21" complete="80" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="501" name="ASL number recognition" color="#8cb6ce" meeting="false" start="2019-04-09" duration="31" complete="100" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="508" name="finish ASL letter recognition" color="#8cb6ce" meeting="false" start="2019-04-09" duration="31" complete="100" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
                 <task id="503" name="video preprocessing" color="#8cb6ce" meeting="false" start="2019-04-02" duration="14" complete="100" thirdDate="2019-02-26" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
             </task>
             <task id="512" name="add confusion matrix scores" color="#8cb6ce" meeting="false" start="2019-04-02" duration="6" complete="100" thirdDate="2019-02-18" thirdDate-constraint="0" expand="true"/>
             <task id="505" name="Deploy webserver to AWS" color="#8cb6ce" meeting="false" start="2019-04-02" duration="11" complete="100" thirdDate="2019-04-02" thirdDate-constraint="0" expand="true"/>
-            <task id="280" name="Testing" meeting="false" start="2019-04-15" duration="46" complete="47" expand="true">
-                <task id="345" name="Unit Testing" meeting="false" start="2019-04-15" duration="27" complete="75" expand="true">
-                    <task id="282" name="webserver" color="#8cb6ce" meeting="false" start="2019-04-15" duration="27" complete="75" thirdDate="2019-04-02" thirdDate-constraint="0" expand="true"/>
-                    <task id="283" name="hybrid app" color="#8cb6ce" meeting="false" start="2019-04-15" duration="27" complete="75" thirdDate="2019-04-08" thirdDate-constraint="0" expand="true"/>
+            <task id="280" name="Testing" meeting="false" start="2019-04-15" duration="42" complete="62" expand="true">
+                <task id="345" name="Unit Testing" meeting="false" start="2019-04-15" duration="27" complete="100" expand="true">
+                    <task id="282" name="webserver" color="#8cb6ce" meeting="false" start="2019-04-15" duration="27" complete="100" thirdDate="2019-04-02" thirdDate-constraint="0" expand="true"/>
+                    <task id="283" name="hybrid app" color="#8cb6ce" meeting="false" start="2019-04-15" duration="27" complete="100" thirdDate="2019-04-08" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="346" name="Integration Testing" color="#8cb6ce" meeting="false" start="2019-05-27" duration="16" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true"/>
+                <task id="346" name="Integration Testing" color="#8cb6ce" meeting="false" start="2019-05-21" duration="16" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="281" name="Documentation" meeting="false" start="2019-05-07" duration="26" complete="16" expand="true">
-                <task id="285" name="webserver" color="#8cb6ce" meeting="false" start="2019-05-07" duration="11" complete="50" thirdDate="2019-05-06" thirdDate-constraint="0" expand="true"/>
+            <task id="281" name="Documentation" meeting="false" start="2019-05-07" duration="26" complete="32" expand="true">
+                <task id="285" name="webserver" color="#8cb6ce" meeting="false" start="2019-05-07" duration="11" complete="100" thirdDate="2019-05-06" thirdDate-constraint="0" expand="true"/>
                 <task id="287" name="hybrid-app" color="#8cb6ce" meeting="false" start="2019-05-20" duration="11" complete="0" thirdDate="2019-05-20" thirdDate-constraint="0" expand="true"/>
                 <task id="288" name="machine learning" color="#8cb6ce" meeting="false" start="2019-05-27" duration="12" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true"/>
             </task>
